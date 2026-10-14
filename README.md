@@ -5,22 +5,22 @@ cadastro com prioridade e data de vencimento, e visualização da lista de pend�
 
 Projeto do **Bootcamp II — Engenharia de Software** (Fase 2: Entrega Intermediária).
 
-* **Autor:** Matheus Andrade Naves
-* **Curso:** Ciência de Dados e Machine Learning — Campus Asa Norte
+- **Autor:** Matheus Andrade Naves
+- **Curso:** Ciência de Dados e Machine Learning — Campus Asa Norte
 
 ## Problema e solução
 
 Anotações em papel e mensagens dispersas levam ao esquecimento de prazos e à falta de
 priorização. O TaskTracker centraliza as pendências em um sistema simples: o usuário
 cadastra tarefas, define a urgência de cada uma e visualiza tudo o que ainda precisa ser feito.
-O planejamento completo (Fase 1) está em [`docs/planejamento\_logico.pdf`](docs/planejamento_logico.pdf).
+O planejamento completo (Fase 1) está em [`docs/planejamento_logico.pdf`](docs/planejamento_logico.pdf).
 
 ## Funcionalidades
 
-* Menu contínuo: cadastrar tarefa, visualizar tarefas e sair.
-* Cada tarefa tem título, descrição, prioridade, data de vencimento e status.
-* Status definido automaticamente como `Pendente` no cadastro.
-* Mensagem clara quando não há tarefas cadastradas.
+- Menu contínuo: cadastrar tarefa, visualizar tarefas e sair.
+- Cada tarefa tem título, descrição, prioridade, data de vencimento e status.
+- Status definido automaticamente como `Pendente` no cadastro.
+- Mensagem clara quando não há tarefas cadastradas.
 
 ## Regras de negócio
 
@@ -30,8 +30,8 @@ O planejamento completo (Fase 1) está em [`docs/planejamento\_logico.pdf`](docs
 
 ## Tecnologias
 
-* Python 3.8+ (apenas biblioteca padrão)
-* Git e GitHub
+- Python 3.8+ (apenas biblioteca padrão)
+- Git e GitHub
 
 ## Estrutura do repositório
 
@@ -40,7 +40,7 @@ tasktracker-projeto/
 ├── README.md
 ├── .gitignore
 ├── docs/
-│   └── planejamento\_logico.pdf
+│   └── planejamento_logico.pdf
 └── src/
     └── main.py
 ```
@@ -48,8 +48,7 @@ tasktracker-projeto/
 ## Como executar
 
 ```bash
-git clone https://github.com/MatheusAN-25/tasktracker-projeto.git
-
+git clone https://github.com/Matheus-AN25/tasktracker-projeto.git
 cd tasktracker-projeto
 python src/main.py
 ```
@@ -60,4 +59,3 @@ python src/main.py
 
 As tarefas ficam armazenadas apenas em memória durante a execução do programa.
 Empacotamento com Docker, testes e deploy fazem parte da Fase 3.
-
