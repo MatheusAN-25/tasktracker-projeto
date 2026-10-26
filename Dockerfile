@@ -1,0 +1,14 @@
+# Imagem base leve com Python 3.11
+FROM python:3.11-slim
+
+# Pasta central de operações dentro do container
+WORKDIR /app
+
+# Garante a saída imediata de logs/prints no terminal (sem buffer)
+ENV PYTHONUNBUFFERED=1
+
+# Injeta o código local no container
+COPY src/ /app/src/
+
+# Comando que dispara a execução da aplicação
+CMD ["python", "src/main.py"]
